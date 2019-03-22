@@ -29,12 +29,13 @@
 	}
 	header#cabecalho img#icone{
 		position: absolute;
-		left: 1150px;
-		top: 70px;
+		left: 750px;
+		top: 50px;
 	}
 	
 	header#cabecalho{
 		border-bottom: 1px #606060 solid;
+		position: relative;
 		height: 150px;
 		background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 	}
@@ -91,13 +92,14 @@
 	
 	nav#menu{
 		display: block;
+		
 	}
 	nav#menu ul{
 		list-style: none;
 		text-transform: uppercase;
-		position: absolute;
-		top: -20px;
-		left: 650px;
+		position: relative;
+		top: -110px;
+		left: 250px;
 	}
 	nav#menu li{
 		display: inline-block;
